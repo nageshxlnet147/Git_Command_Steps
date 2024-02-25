@@ -1,2 +1,2 @@
 # Git_Command_Steps
-Steps to follow
+Please follow the steps mentioned in the - Git_Commands.txt file
