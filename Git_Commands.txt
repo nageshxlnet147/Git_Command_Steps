@@ -1,1 +1,8 @@
-step1: git init.
+step1: git init
+step2: git add . 
+step3: git commit -m 'own message'(if we get any error after commit u need to follow this steps)
+    After error: step1: git config --global user.name 'John Doe'
+                 step2: git config --global user.email 'johndoe@example.com'
+                 step3: git commit -m 'own message'
+step4: git push -u origin branch name
+
