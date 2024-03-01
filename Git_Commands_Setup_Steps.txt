@@ -5,4 +5,4 @@ step3: git commit -m 'own message'(if we get any error after commit u need to fo
     After error: step1: git config --global user.name 'John Doe'
                  step2: git config --global user.email 'johndoe@example.com'
                  step3: git commit -m 'own message'
-step4: git push -u origin branch name
+step4: git push -u origin branch name.
