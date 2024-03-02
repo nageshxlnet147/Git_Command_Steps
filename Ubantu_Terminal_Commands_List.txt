@@ -1,0 +1,12 @@
+::Ubantu Terminl commands::
+=================================================================================
+1. Jupiter notebook opening:
+    0. sudo apt install pip3 (if pip pakage is not installed already)
+    1. pip3 install notebook
+    2. notebook (if not work)
+    3. python3 -m notebook (copy the URL and paste it in browser)
+---------------------------------------------------------------------------------
+2. Visual studio code opening:
+    1. code . (if its not installed also this command will used to install automatically and openng the VS code if its downoladedin you pc/laptop.)
+    Note: . (dot means currect directory)
+-------------------------------------------------------------------------
