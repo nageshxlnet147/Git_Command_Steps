@@ -1,0 +1,58 @@
+::::Intro to Programming with Python::::
+============================================================================================
+1. Software: Software is a set of instructions to the hardware.
+2. Programming: Programming means writing the instructions to create a software.
+3. Code: The instructions that we write to create software is called Code.
+4. Syntax: Similar to Grammar rules in English, Hindi, each programming language has a unique set of rules. These rules are called the Syntax of a Programming Language.
+-----------------------------------------------------------------------------------------
+5. Why Python?:
+	Python is an easy to learn, powerful programming language.
+	With Python, it is possible to create programs with minimal amount of code.
+	Look at the code in Java and Python used for printing the message "Hello World"
+	print("Hello World")
+-------------------------------------------------------------------------------------------
+6. Applications of Python:
+	Python is a versatile language which has applications in almost every field:
+		• Artificial intelligence (AI)
+		• Machine Learning (ML)
+		• Big Data
+		• Smart Devices/Internet of Things (IoT)
+		• Cyber Security
+		• Game Development
+		• Backend Development, etc.
+---------------------------------------------------------------------------------
+7. Career Opportunities: 
+	Python developers have plenty of opportunities across the world:
+		• DevOps Engineer
+		• Software Developer
+		• Data Analyst
+		• Data Scientist
+		• Machine Learning (ML) Engineer
+		• AI Scientist, etc.
+--------------------------------------------------------------------------------
+#Day1:
+
+Comments:
+	1. # (Comments the every single line)
+	2. """ enter """ (If it's not assigned to any varibles means then it's consider as multi -line Comments)
+	3. # (multiple lines on single way Comments: ctrl+farword)
+
+Data Types:
+	1. Numerical data types:
+		1. Integer - int : Ex = 1, 3, 5, etc....
+		2. Floating - float : Ex = 1.2, 2.3, 4.5, etc....
+		3. complex - integer+integerj or integerj  (vise versa also possible): Ex = 1+2j, 2+5j, 4+7j, etc.... 
+	2. Boolean - Ex = True, False (We can call as keywords)
+	3. Set - {} : Ex = {1,3,5,6}, {'e','t','u'}, etc....
+	4. Dictinory - { key:value, key1:value1, } : Ex = name:'nagesh', id=147, etc....
+	5. Sequence
+		1. List - [] : Ex = [2,4,6], ['e','t','y','u'], etc....
+		2. Touples - () : Ex = (1,2,4,5), ('t','y','u'), etc...
+		3. Sting - "" or '' : Ex: "nagesh", 'roona', etc.....
+
+Type of Data:
+	1. type(data or variable name) - (check the which type of data is)
+
+
+
+
