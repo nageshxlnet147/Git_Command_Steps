@@ -1,8 +1,13 @@
-step0: clone the github link
-step1: git init
-step2: git add . 
-step3: git commit -m 'own message'(if we get any error after commit u need to follow this steps)
-    After error: step1: git config --global user.name 'John Doe'
+Step 0: clone the github link
+Step 1: git init
+Step 2: git add . 
+Step 3: git commit -m 'own message'(if we get any error after commit u need to follow this steps)
+    After facing error: step1: git config --global user.name 'John Doe'
                  step2: git config --global user.email 'johndoe@example.com'
                  step3: git commit -m 'own message'
-step4: git push -u origin branch name.
+Step 4: git push -u origin branch name or git push.
+
+Helpful commands for git:
+
+1. git status (check the current status of changes)
+2. git add -A (Add the untracked files/folders)
