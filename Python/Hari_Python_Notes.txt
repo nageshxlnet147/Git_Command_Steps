@@ -59,7 +59,7 @@ Difference b/w C, Java, Python:
 	4. Then automatically execute the byte code and we can view the output on the console.
 	5. But this byte code file can work in other systems because its create based on their INTERPRETER on pc,so INTERPRETER can same for all pc's.
 	6. Because of this proccess called as object oriendted Programming.
-	7. So c is paltform independent.
+	7. So Python is paltform independent.
 
 4. Difference between Static & Dynamic type:
 	1. Static: 1. we need to define the variable data types.
