@@ -50,7 +50,7 @@ Difference b/w C, Java, Python:
 	4. Then automatically execute the byte code and we can view the output on the console.
 	5. But this byte code file can work in other systems because its create based on their JVM on pc,so JVM can same for all pc's.
 	6. Because of this proccess called as procedurual oriented/object oriendted Programming.
-	7. So c is paltform unaffected.
+	7. So Java is paltform unaffected.
 
 3. Python:
 	1. 1st we need to compile the code
