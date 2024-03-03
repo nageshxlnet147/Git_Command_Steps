@@ -7,7 +7,10 @@ Step 3: git commit -m 'own message'(if we get any error after commit u need to f
                  step3: git commit -m 'own message'
 Step 4: git push -u origin branch name or git push.
 
-Helpful commands for git:
+Helpful/Useful commands for git:
 
 1. git status (check the current status of changes)
 2. git add -A (Add the untracked files/folders)
+3. git log (we can see the all logs, means all commits)
+4. git diff (Before run the git add ., we can see the before and after changes)
+5. git diff stagged (after run the git add ., we can run see the before and after changes)
