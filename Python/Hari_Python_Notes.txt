@@ -30,28 +30,69 @@
 		• Machine Learning (ML) Engineer
 		• AI Scientist, etc.
 --------------------------------------------------------------------------------
+#Day0:
+
+Difference b/w C, Java, Python:
+
+1. C:
+	1. 1st we need to compile the code
+	2. After complied its create a another file related to byte code of the same write code 
+	3. By using GCC system can convert the normal code to byte code, this bytecode machine can only undersatnd 
+	4. Then we need to execute the byte code and we can view the output on the console.
+	5. But this byte code file doen't work in other systems because its create based on their present pc not for all other pc's.
+	6. Because of this proccess called as procedurual oriented Programming.
+	7. So c is paltform specific.
+
+2. Java:
+	1. 1st we need to compile the code
+	2. After complied its create a another file related to byte code of the same write code 
+	3. By using JVM system can convert the normal code to byte code, this bytecode machine can only undersatnd 
+	4. Then automatically execute the byte code and we can view the output on the console.
+	5. But this byte code file can work in other systems because its create based on their JVM on pc,so JVM can same for all pc's.
+	6. Because of this proccess called as procedurual oriented/object oriendted Programming.
+	7. So c is paltform unaffected.
+
+3. Python:
+	1. 1st we need to compile the code
+	2. After interpreted its create a another file inside the python virtual machine related to byte code of the same writen code.
+	3. By using INTERPRETER system can convert the normal code to byte code, this bytecode machine can only undersatnd 
+	4. Then automatically execute the byte code and we can view the output on the console.
+	5. But this byte code file can work in other systems because its create based on their INTERPRETER on pc,so INTERPRETER can same for all pc's.
+	6. Because of this proccess called as object oriendted Programming.
+	7. So c is paltform independent.
+
+4. Difference between Static & Dynamic type:
+	1. Static: 1. we need to define the variable data types.
+			   2. First the code was converted to the byte code and create a another file then execute the byte code file and produce the output.
+			   2. Ex: C, C++, Java, etc......
+
+	2. Dynamic: 1. we don't need to define variable data types, the code insterpreter can identify and work on output.
+				2. Because of this one fo the reason python was slow compare to other programming languages.
+				3. But python also convert byte code but its doen't create the byte code file at any were.
+
+
 #Day1:
 
-Comments:
-	1. # (Comments the every single line)
-	2. """ enter """ (If it's not assigned to any varibles means then it's consider as multi -line Comments)
-	3. # (multiple lines on single way Comments: ctrl+farword)
+1. Comments:
+		1. # (Comments the every single line)
+		2. """ enter """ (If it's not assigned to any varibles means then it's consider as multi -line Comments)
+		3. # (multiple lines on single way Comments: ctrl+farword)
 
-Data Types:
-	1. Numerical data types:
-		1. Integer - int : Ex = 1, 3, 5, etc....
-		2. Floating - float : Ex = 1.2, 2.3, 4.5, etc....
-		3. complex - integer+integerj or integerj  (vise versa also possible): Ex = 1+2j, 2+5j, 4+7j, etc.... 
-	2. Boolean - Ex = True, False (We can call as keywords)
-	3. Set - {} : Ex = {1,3,5,6}, {'e','t','u'}, etc....
-	4. Dictinory - { key:value, key1:value1, } : Ex = name:'nagesh', id=147, etc....
-	5. Sequence
-		1. List - [] : Ex = [2,4,6], ['e','t','y','u'], etc....
-		2. Touples - () : Ex = (1,2,4,5), ('t','y','u'), etc...
-		3. Sting - "" or '' : Ex: "nagesh", 'roona', etc.....
+2. Data Types:
+		1. Numerical data types:
+			1. Integer - int : Ex = 1, 3, 5, etc....
+			2. Floating - float : Ex = 1.2, 2.3, 4.5, etc....
+			3. complex - integer+integerj or integerj  (vise versa also possible): Ex = 1+2j, 2+5j, 4+7j, etc.... 
+		2. Boolean - Ex = True, False (We can call as keywords)
+		3. Set - {} : Ex = {1,3,5,6}, {'e','t','u'}, etc....
+		4. Dictinory - { key:value, key1:value1, } : Ex = name:'nagesh', id=147, etc....
+		5. Sequence
+			1. List - [] : Ex = [2,4,6], ['e','t','y','u'], etc....
+			2. Touples - () : Ex = (1,2,4,5), ('t','y','u'), etc...
+			3. Sting - "" or '' : Ex: "nagesh", 'roona', etc.....
 
-Type of Data:
-	1. type(data or variable name) - (check the which type of data is)
+3. Type of Data:
+		1. type(data or variable name) - (check the which type of data is)
 
 
 
