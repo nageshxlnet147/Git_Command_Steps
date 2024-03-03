@@ -69,8 +69,7 @@ Difference b/w C, Java, Python:
 	2. Dynamic: 1. we don't need to define variable data types, the code insterpreter can identify and work on output.
 				2. Because of this one fo the reason python was slow compare to other programming languages.
 				3. But python also convert byte code but its doen't create the byte code file at any were.
-
-
+--------------------------------------------------------------------------------------------------------------------
 #Day1:
 
 1. Comments:
