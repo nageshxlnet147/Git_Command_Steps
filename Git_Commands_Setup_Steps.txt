@@ -1,4 +1,4 @@
-Step 0: clone the github link
+Step 0: git clone URL (clone the github link)
 Step 1: git init
 Step 2: git add . 
 Step 3: git commit -m 'own message'(if we get any error after commit u need to follow this steps)
@@ -13,4 +13,4 @@ Helpful/Useful commands for git:
 2. git add -A (Add the untracked files/folders)
 3. git log (we can see the all logs, means all commits)
 4. git diff (Before run the git add ., we can see the before and after changes)
-5. git diff --staged (after run the git add ., we can run see the before and after changes)
+5. git diff --staged (after run the git add ., we can see the before and after changes)

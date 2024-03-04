@@ -96,12 +96,12 @@ Difference b/w C, Java, Python:
 			5. Values can be of any type, including integer, list, and tuple.
 		5. Sequence
 			1. List - [] : Ex = [2,4,6], ['e','t','y','u'], etc....
-			2. Touples - () : Ex = (1,2,4,5), ('t','y','u'), etc...
+			2. Tuples - () : Ex = (1,2,4,5), ('t','y','u'), etc...
 			3. Sting - "" or '' : Ex: "nagesh", 'roona', etc.....
 
 3. Type of Data:
 		1. type(data or variable name) - (check the which type of data is)
-
+---------------------------------------------------------------------------------------------------
 
 
 
