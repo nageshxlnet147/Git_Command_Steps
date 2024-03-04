@@ -84,7 +84,16 @@ Difference b/w C, Java, Python:
 			3. complex - integer+integerj or integerj  (vise versa also possible): Ex = 1+2j, 2+5j, 4+7j, etc.... 
 		2. Boolean - Ex = True, False (We can call as keywords)
 		3. Set - {} : Ex = {1,3,5,6}, {'e','t','u'}, etc....
+			1. Set is the collection of the unordered items.
+			2. Each element in the set must be unique.
+			3. Sets are Immutable, and the sets remove the duplicate elements.
+			4. Sets are mutable which means we can modify it after its creation.
 		4. Dictinory - { key:value, key1:value1, } : Ex = name:'nagesh', id=147, etc....
+			1. The data is stored as key-value pairs.
+			2. This data structure is mutable.
+			3. The components of dictionary were made using keys and values.
+			4. Keys must only have one component.
+			5. Values can be of any type, including integer, list, and tuple.
 		5. Sequence
 			1. List - [] : Ex = [2,4,6], ['e','t','y','u'], etc....
 			2. Touples - () : Ex = (1,2,4,5), ('t','y','u'), etc...
