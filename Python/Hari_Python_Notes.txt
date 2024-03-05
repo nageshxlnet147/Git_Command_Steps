@@ -37,58 +37,58 @@ Difference b/w C, Java, Python:
 1. C:
 	1. 1st we need to compile the code
 	2. After complied its create a another file related to byte code of the same write code 
-	3. By using GCC system can convert the normal code to byte code, this bytecode machine can only undersatnd 
+	3. By using GCC system can convert the normal code to byte code, this bytecode machine can only understand 
 	4. Then we need to execute the byte code and we can view the output on the console.
-	5. But this byte code file doen't work in other systems because its create based on their present pc not for all other pc's.
-	6. Because of this proccess called as procedurual oriented Programming.
-	7. So c is paltform specific.
+	5. But this byte code file doesn't work in other systems because its create based on their present pc not for all other pc's.
+	6. Because of this process called as procedural oriented Programming.
+	7. So c is platform specific.
 
 2. Java:
 	1. 1st we need to compile the code
 	2. After complied its create a another file related to byte code of the same write code 
-	3. By using JVM system can convert the normal code to byte code, this bytecode machine can only undersatnd 
+	3. By using JVM system can convert the normal code to byte code, this bytecode machine can only understand 
 	4. Then automatically execute the byte code and we can view the output on the console.
 	5. But this byte code file can work in other systems because its create based on their JVM on pc,so JVM can same for all pc's.
-	6. Because of this proccess called as procedurual oriented/object oriendted Programming.
-	7. So Java is paltform unaffected.
+	6. Because of this process called as procedural oriented/object oriented Programming.
+	7. So Java is platform unaffected.
 
 3. Python:
 	1. 1st we need to compile the code
-	2. After interpreted its create a another file inside the python virtual machine related to byte code of the same writen code.
-	3. By using INTERPRETER system can convert the normal code to byte code, this bytecode machine can only undersatnd 
+	2. After interpreted its create a another file inside the python virtual machine related to byte code of the same written code.
+	3. By using INTERPRETER system can convert the normal code to byte code, this bytecode machine can only understand 
 	4. Then automatically execute the byte code and we can view the output on the console.
 	5. But this byte code file can work in other systems because its create based on their INTERPRETER on pc,so INTERPRETER can same for all pc's.
-	6. Because of this proccess called as object oriendted Programming.
-	7. So Python is paltform independent.
+	6. Because of this process called as object oriented Programming.
+	7. So Python is platform independent.
 
 4. Difference between Static & Dynamic type:
 	1. Static: 1. we need to define the variable data types.
 			   2. First the code was converted to the byte code and create a another file then execute the byte code file and produce the output.
 			   2. Ex: C, C++, Java, etc......
 
-	2. Dynamic: 1. we don't need to define variable data types, the code insterpreter can identify and work on output.
+	2. Dynamic: 1. we don't need to define variable data types, the code interpreter can identify and work on output.
 				2. Because of this one fo the reason python was slow compare to other programming languages.
-				3. But python also convert byte code but its doen't create the byte code file at any were.
+				3. But python also convert byte code but its doesn't create the byte code file at any were.
 --------------------------------------------------------------------------------------------------------------------
 #Day1:
 
 1. Comments:
 		1. # (Comments the every single line)
-		2. """ enter """ (If it's not assigned to any varibles means then it's consider as multi -line Comments)
-		3. # (multiple lines on single way Comments: ctrl+farword)
+		2. """ enter """ (If it's not assigned to any variables means then it's consider as multi -line Comments)
+		3. # (multiple lines on single way Comments: ctrl+forward)
 
 2. Data Types:
 		1. Numerical data types:
 			1. Integer - int : Ex = 1, 3, 5, etc....
 			2. Floating - float : Ex = 1.2, 2.3, 4.5, etc....
-			3. complex - integer+integerj or integerj  (vise versa also possible): Ex = 1+2j, 2+5j, 4+7j, etc.... 
+			3. complex - integer + integerj or integerj  (vise versa also possible): Ex = 1+2j, 2+5j, 4+7j, etc.... 
 		2. Boolean - Ex = True, False (We can call as keywords)
 		3. Set - {} : Ex = {1,3,5,6}, {'e','t','u'}, etc....
 			1. Set is the collection of the unordered items.
 			2. Each element in the set must be unique.
 			3. Sets are Immutable, and the sets remove the duplicate elements.
 			4. Sets are mutable which means we can modify it after its creation.
-		4. Dictinory - { key:value, key1:value1, } : Ex = name:'nagesh', id=147, etc....
+		4. Dictionary - { key:value, key1:value1, } : Ex = name:'nagesh', id=147, etc....
 			1. The data is stored as key-value pairs.
 			2. This data structure is mutable.
 			3. The components of dictionary were made using keys and values.
@@ -96,12 +96,88 @@ Difference b/w C, Java, Python:
 			5. Values can be of any type, including integer, list, and tuple.
 		5. Sequence
 			1. List - [] : Ex = [2,4,6], ['e','t','y','u'], etc....
-			2. Tuples - () : Ex = (1,2,4,5), ('t','y','u'), etc...
-			3. Sting - "" or '' : Ex: "nagesh", 'roona', etc.....
+			2. Tuple - () : Ex = (1,2,4,5), ('t','y','u'), etc...
+			3. String - "" or '' : Ex: "nagesh", 'roona', etc.....
 
 3. Type of Data:
 		1. type(data or variable name) - (check the which type of data is)
 ---------------------------------------------------------------------------------------------------
+#Day2:
+
+1. Sequence:
+	1. List: Explained everything in day1 & code2.py file.
+	2. Tuple: Explained everything in day1 & code3.py file.
+	3. String: Explained everything in day1 & code1.py file.
+
+2. ASCII (code6.py file): (American Standard Code for Information Interchange)
+	1. ord(' '): we can identify the ASCII code for the given value to ord('any value')
+	2. print(ord('4')) = 52
+
+		Dec  Char                         Dec  Char     Dec  Char     Dec  Char
+		---------                           ---------     ---------     ----------
+		0  NUL (null)                      32  SPACE     64  @         96  `
+		1  SOH (start of heading)          33  !         65  A         97  a
+		2  STX (start of text)             34  "         66  B         98  b
+		3  ETX (end of text)               35  #         67  C         99  c
+		4  EOT (end of transmission)       36  $         68  D        100  d
+		5  ENQ (enquiry)                   37  %         69  E        101  e
+		6  ACK (acknowledge)               38  &         70  F        102  f
+		7  BEL (bell)                      39  '         71  G        103  g
+		8  BS  (backspace)                 40  (         72  H        104  h
+		9  TAB (horizontal tab)            41  )         73  I        105  i
+		10  LF  (NL line feed, new line)    42  *         74  J        106  j
+		11  VT  (vertical tab)              43  +         75  K        107  k
+		12  FF  (NP form feed, new page)    44  ,         76  L        108  l
+		13  CR  (carriage return)           45  -         77  M        109  m
+		14  SO  (shift out)                 46  .         78  N        110  n
+		15  SI  (shift in)                  47  /         79  O        111  o
+		16  DLE (data link escape)          48  0         80  P        112  p
+		17  DC1 (device control 1)          49  1         81  Q        113  q
+		18  DC2 (device control 2)          50  2         82  R        114  r
+		19  DC3 (device control 3)          51  3         83  S        115  s
+		20  DC4 (device control 4)          52  4         84  T        116  t
+		21  NAK (negative acknowledge)      53  5         85  U        117  u
+		22  SYN (synchronous idle)          54  6         86  V        118  v
+		23  ETB (end of trans. block)       55  7         87  W        119  w
+		24  CAN (cancel)                    56  8         88  X        120  x
+		25  EM  (end of medium)             57  9         89  Y        121  y
+		26  SUB (substitute)                58  :         90  Z        122  z
+		27  ESC (escape)                    59  ;         91  [        123  {
+		28  FS  (file separator)            60  <         92  \        124  |
+		29  GS  (group separator)           61  =         93  ]        125  }
+		30  RS  (record separator)          62  >         94  ^        126  ~
+		31  US  (unit separator)            63  ?         95  _        127  DEL
+
+3. Binary number find out (code6.py file).
+	1. bin(any value): we can find out the Binary code for any value.
+	2. print(bin(52)) =  0b110100
+
+4. Operators (code7.py file):
+	1. Arithmetic:
+		a. +: Addition 
+		b. -: Subtraction
+		c. *: Multiplication
+		d. /: Division (Reminder) (In python we received the output as floating value)
+		e. %: Modulo (Quotient)
+		f. **: Exponential (Power)
+		g. //: integer values as output
+
+	2. Relational or conditional (code8.py file):
+		a. <: Less than
+		b. >: Greater than
+		c. <= Less than or equal to
+		d. >= Gr than or equal to
+		e. == Equal to
+		f. != Not equal to
+
+	3. Assignment Operator
+	4. Bitwise 
+	5. Logical
+	6. Membership
+	7. Identity
+	8. Operator precedence & Associativity
+
+
 
 
 
