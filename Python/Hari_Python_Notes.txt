@@ -169,15 +169,71 @@ Difference b/w C, Java, Python:
 		d. >= Gr than or equal to
 		e. == Equal to
 		f. != Not equal to
+--------------------------------------------------------------------------------------------------
+#Day3: 
 
-	3. Assignment Operator
-	4. Bitwise 
-	5. Logical
-	6. Membership
-	7. Identity
-	8. Operator precedence & Associativity
+1 . Assignment Operator (code9.py file):
+		a. =
+		b. +=
+		c. -=
+		d. *=
+		e. **=
+		f. //*
+		g. /=
+		h. %=
 
+2. Bitwise (code10.py file)
+		# Bitwise and, or, complement, xor, left shift, right shift
+		a. AND Logic (&) - Logic Gates:
+		    X & Y -> O
+			0   0    0
+			0   1    0
+			1   0    0
+			1   1    1
 
+		b. OR Logic Gate (|):
+		  	X | Y -> O
+		  	0   0    0
+		  	0   1    1
+		  	1   0    1
+		  	1   1    1
 
+		c. NOT Gate (~):
+			 X ~ O
+			 0    1
+			 1    0
+
+		d. XOR Gate (^):
+			 X ^ Y -> O
+			 0   0    0
+			 0   1    1
+			 1   0    1
+			 1   1    0
+
+		e. Left Shift (<<): Least significant to most significant conversion.
+			a << 1:
+				  168 4 2 1
+			7 6 5 4 3 2 1 0
+			0 0 0 1 0 1 0 0
+
+		f. Right shift (>>): Most significant to least significant conversion.
+			a >> 2:
+				  168 4 2 1
+			7 6 5 4 3 2 1 0
+			0 0 0 0 1 0 1 0 
+
+3. Logical (code11.py file):
+		a. AND
+		b. OR
+		c. NOT
+4. Membership (Code12.py file):
+		a. in
+		b. not in
+5. Identity (Code12.py file):
+		a. is
+		b. is not
+-----------------------------------------------------------------------------------------------------
+
+6. Operator precedence & Associativity
 
 
