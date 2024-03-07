@@ -233,7 +233,26 @@ Difference b/w C, Java, Python:
 		a. is
 		b. is not
 -----------------------------------------------------------------------------------------------------
+#Day4:
 
-6. Operator precedence & Associativity
-
-
+1. Operator precedence & Associativity (code13.py file, Operator_precedence_associativity_table_python.cs)  :
+	1. Operator: which perform some operation in Operand, Operand: Input values
+	2. Unary Operator (+, -, True, False):  takes one operand and produces one result.
+		a. EX: not True, not False, +, -
+			Positive: (+)
+			Negative: (-)
+			Increment: (++)
+			Decrement: (--
+			Logical NOT: (!)
+			Bitwise NOT: (~)
+			Address of: (&)
+			Dereference: (*)
+			sizeof
+	3. Binary Operator: that takes two operands and returns a single value. 
+		a. Ex: 1+2, 3-4,....etc.... 
+			Arithmetic operators: +, -, *, /, //, %, ** 
+			Logical operators: and, or, not 
+			Bitwise operators: &, |, ^, ~, <<, >>
+	4. Ternary Operator:  determines if a condition is true or false and then returns the appropriate value in accordance with the result.
+		b. Ex:  [on_true] if [expression] else [on_false]
+		

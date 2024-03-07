@@ -14,3 +14,6 @@ Helpful/Useful commands for git:
 3. git log (we can see the all logs, means all commits)
 4. git diff (Before run the git add ., we can see the before and after changes)
 5. git diff --staged (after run the git add ., we can see the before and after changes)
+6. git stash (1st do the changes in any file then add the changes in staging area then after do this command it will remove the file saved in stash area)
+7. git stash apply (after git stash if you need removed file back then apply this command, it will back in same place with removing any content inside the file)
+8. git stash pop (after git stash if you need removed file back then apply this command, it will back in same place with removing the what ever changes u made inside the file)
