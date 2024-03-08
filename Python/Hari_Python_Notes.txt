@@ -299,7 +299,7 @@ Difference b/w C, Java, Python:
 	1. Indexing representation:
 		a. list creation: value_list = [ 1, 2, 3, 4, 5, 1.2, "python", [1, 2, 3] ]
 		b. List Accessing:
-			| 		index        |    		Value         |
+			| 		index     |    	Value       |
 			|-----------------------------------|---------|
 			| 	0    ->   1      |
 			|-----------------------------------|---------|
