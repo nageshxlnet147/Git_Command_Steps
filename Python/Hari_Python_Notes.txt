@@ -62,13 +62,13 @@ Difference b/w C, Java, Python:
 	7. So Python is platform independent.
 
 4. Difference between Static & Dynamic type:
-	1. Static: 1. we need to define the variable data types.
-			   2. First the code was converted to the byte code and create a another file then execute the byte code file and produce the output.
-			   2. Ex: C, C++, Java, etc......
+	1. Static: a. we need to define the variable data types.
+			   b. First the code was converted to the byte code and create a another file then execute the byte code file and produce the output.
+			   c. Ex: C, C++, Java, etc......
 
-	2. Dynamic: 1. we don't need to define variable data types, the code interpreter can identify and work on output.
-				2. Because of this one fo the reason python was slow compare to other programming languages.
-				3. But python also convert byte code but its doesn't create the byte code file at any were.
+	2. Dynamic: a. we don't need to define variable data types, the code interpreter can identify and work on output.
+				b. Because of this one fo the reason python was slow compare to other programming languages.
+				c. But python also convert byte code but its doesn't create the byte code file at any were.
 --------------------------------------------------------------------------------------------------------------------
 #Day1:
 
@@ -79,25 +79,25 @@ Difference b/w C, Java, Python:
 
 2. Data Types:
 		1. Numerical data types:
-			1. Integer - int : Ex = 1, 3, 5, etc....
-			2. Floating - float : Ex = 1.2, 2.3, 4.5, etc....
-			3. complex - integer + integerj or integerj  (vise versa also possible): Ex = 1+2j, 2+5j, 4+7j, etc.... 
+			a. Integer - int : Ex = 1, 3, 5, etc....
+			b. Floating - float : Ex = 1.2, 2.3, 4.5, etc....
+			c. complex - integer + integerj or integerj  (vise versa also possible): Ex = 1+2j, 2+5j, 4+7j, etc.... 
 		2. Boolean - Ex = True, False (We can call as keywords)
 		3. Set - {} : Ex = {1,3,5,6}, {'e','t','u'}, etc....
-			1. Set is the collection of the unordered items.
-			2. Each element in the set must be unique.
-			3. Sets are Immutable, and the sets remove the duplicate elements.
-			4. Sets are mutable which means we can modify it after its creation.
+			a. Set is the collection of the unordered items.
+			b. Each element in the set must be unique.
+			c. Sets are Immutable, and the sets remove the duplicate elements.
+			d. Sets are mutable which means we can modify it after its creation.
 		4. Dictionary - { key:value, key1:value1, } : Ex = name:'nagesh', id=147, etc....
-			1. The data is stored as key-value pairs.
-			2. This data structure is mutable.
-			3. The components of dictionary were made using keys and values.
-			4. Keys must only have one component.
-			5. Values can be of any type, including integer, list, and tuple.
+			a. The data is stored as key-value pairs.
+			b. This data structure is mutable.
+			c. The components of dictionary were made using keys and values.
+			d. Keys must only have one component.
+			e. Values can be of any type, including integer, list, and tuple.
 		5. Sequence
-			1. List - [] : Ex = [2,4,6], ['e','t','y','u'], etc....
-			2. Tuple - () : Ex = (1,2,4,5), ('t','y','u'), etc...
-			3. String - "" or '' : Ex: "nagesh", 'roona', etc.....
+			a. List - [] : Ex = [2,4,6], ['e','t','y','u'], etc....
+			b. Tuple - () : Ex = (1,2,4,5), ('t','y','u'), etc...
+			c. String - "" or '' : Ex: "nagesh", 'roona', etc.....
 
 3. Type of Data:
 		1. type(data or variable name) - (check the which type of data is)
@@ -255,4 +255,25 @@ Difference b/w C, Java, Python:
 			Bitwise operators: &, |, ^, ~, <<, >>
 	4. Ternary Operator:  determines if a condition is true or false and then returns the appropriate value in accordance with the result.
 		b. Ex:  [on_true] if [expression] else [on_false]
-		
+2. List [] (code14.py file):
+	1. Indexing representation:
+		a. list creation: value_list = [ 1, 2, 3, 4, 5, 1.2, "python", [1, 2, 3] ]
+		b. List Accessing:
+			index,  Value
+			0    ->   1
+			1    ->   2
+			2    ->   3
+			3    ->   4
+			4    ->   5
+			5    ->   1.2
+	2. List operations:
+		a. Repetition (*): we can create multiple list by using *. 
+		b. Concatenation (+): we can combine the more than 2 list.
+		c. Length (len) : we can find out the length of the list.
+		d. Iteration: we can Iteration the list.
+		e. Membership (in): we can find the particular values in the list.
+	3. List Inbuilt functions: By using this we can modify/create/update....etc...
+		a. append(): we can add the new value at the end of the list.
+		b. Extend (): We can extend the already existing list add a new items.
+		c. copy(): It will create the shadow of the other list.
+--------------------------------------------------------------------------------------------------------------------
