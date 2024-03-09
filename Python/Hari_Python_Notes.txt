@@ -324,3 +324,21 @@ Difference b/w C, Java, Python:
 		b. Extend (): We can extend the already existing list add a new items.
 		c. copy(): It will create the shadow of the other list.
 --------------------------------------------------------------------------------------------------------------------
+#Day5:
+
+		d. remove(): its remove the whatever number u want in the list and mention same.
+		e. clear(): its clear the all the data in the list and provide the empty list as output.
+		f. insert(): its will inserted the value in which ever place you want and give it same (need two aruguments).
+		g. pop(): its deleting last item in the list and also we can delete which index item we need.
+		h. reverse(): its will reverse the list as output.
+		i. sort(): its will sort the ascending order as output.
+		j. sorted(): that builds a new sorted list from an iterable.
+		k. count(): count the which items is repeated in the list.
+		l. index(): find the index position if the particular item in the list.
+	1. slicing: we can divide the parts parts in the list.we can work with Positive side and Negative side as well.
+		a. Syntax: Positive side: [start vale: end value] or [start vale: end value: step count] // Negative side: [end value : start vale] or [end value : start vale: step count] 
+			Ex: [2:6] or [2:6:2] // [-6:-2] or [-6:-2:2]
+	2. Tuple () (code15.py file):
+		a. count(): count the which items is repeated in the list.
+		b. index(): find the index position if the particular item in the list.
+---------------------------------------------------------------------------------------------------------------------
