@@ -342,3 +342,9 @@ Difference b/w C, Java, Python:
 		a. count(): count the which items is repeated in the list.
 		b. index(): find the index position if the particular item in the list.
 ---------------------------------------------------------------------------------------------------------------------
+#Day6:
+
+1. if __name__ == '__main__': (code16.py file) :
+	a. __name__ : It is an variable and it's print the __main__ as a file name of the executed one. its produce the output in same file only but not other.
+	b. __main__ : its mapping with the variable of __name__.
+---------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,1 @@
+print(__name__)     # output as __main__
