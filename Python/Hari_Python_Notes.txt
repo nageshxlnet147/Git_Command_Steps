@@ -335,7 +335,7 @@ Difference b/w C, Java, Python:
 		j. sorted(): that builds a new sorted list from an iterable.
 		k. count(): count the which items is repeated in the list.
 		l. index(): find the index position if the particular item in the list.
-	1. slicing: we can divide the parts parts in the list.we can work with Positive side and Negative side as well.
+	1. slicing: we can divide list in parts.we can work with Positive side and Negative side as well.
 		a. Syntax: Positive side: [start vale: end value] or [start vale: end value: step count] // Negative side: [end value : start vale] or [end value : start vale: step count] 
 			Ex: [2:6] or [2:6:2] // [-6:-2] or [-6:-2:2]
 	2. Tuple () (code15.py file):
@@ -348,3 +348,29 @@ Difference b/w C, Java, Python:
 	a. __name__ : It is an variable and it's print the __main__ as a file name of the executed one. its produce the output in same file only but not other.
 	b. __main__ : its mapping with the variable of __name__.
 ---------------------------------------------------------------------------------------------------------------------
+#Day7:
+
+1. String (code17.py file):
+	a. It is a group of characters.
+	b. Escaping operations: \', \", \n: next line, \t: tab space.....etc
+	c. f-String:  Syntax: f"{}", It provides a concise and intuitive way to embed expressions and variables directly into strings. The idea behind f-strings is to make string interpolation simpler.
+	d. str.formate(): Syntax: { }.format(value), String format() function has been introduced for handling complex string formatting more efficiently. Sometimes we want to make generalized print statements in that case instead of writing print statements every time we use the concept of formatting.
+	e. capitalize(): In the string starting character got capitalized.
+	f. title(): In the string starting of the every word character got capitalized.
+	g. upper(): In the string all character got capitalized.
+	h. lower(): In the string all character got normal.
+	i. isalnum(): If the string is combination of both number&alphabets without any spaces in between.
+	j. isalpha(): If the complete string alphabets without numbers & spaces in between.
+	k. isdigit(): If the complete string numbers without string & spaces in between.
+	l. len(): we can find out the length of the string (like how many characters in the string & numbers as well)
+	m. endswith(".extension name"): we can find out the extension of any formate.
+	n. slicing[]: we can divide string in parts.we can work with Positive side and Negative side as well.
+
+2. set{}:
+	a. set does't allow duplicates.
+	b. add(): we can add the values in the exiting set .
+	c. update(): we can update the exiting set by giving multiple values at a time.
+	d. remove(): we can remove the values in the set.
+-----------------------------------------------------------------------------------------------------------------
+
+	
