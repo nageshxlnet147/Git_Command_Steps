@@ -293,11 +293,11 @@ Difference b/w C, Java, Python:
 |------------------------------------------------------------------------------------------------------------------------------|
 | 15	                        or	                        Boolean OR	                        Left to right                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------|
-| 16	                    if-else	                        Conditional expression	            Right to left                                                             |
+| 16	                    if-else	                        Conditional expression	                Right to left                                                             |
 |------------------------------------------------------------------------------------------------------------------------------|
-| 17	                    lambda	                        Lambda expression	                N/A                                                                             |
+| 17	                    lambda	                        Lambda expression	                    N/A                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------|
-| 18	                    :=	                   Assignment expression (walrus operator)	    Right to left                                                 |
+| 18	                    :=	                   Assignment expression (walrus operator)	        Right to left                                                 |
 |------------------------------------------------------------------------------------------------------------------------------|
 
 2. List [] (code14.py file):
@@ -396,39 +396,39 @@ Difference b/w C, Java, Python:
 4. Conditional statements (code20.py file): Conditional Statement allows you to execute a block of code only when a specific condition is true.
 	1. if:	
 		Syntax:	if condition: 
-					output
+				output
 	2. if else: 
 		Syntax:	if condition: 
+				output
+			else:
+				output
+	3. Nested if:	
+		Syntax:		if condition:
+					output
+					if condition:
+						output
+						if condition:
+							output
+				else:
+					output
+	4. else if: 
+		Syntax:		if condition:
+					output
+				elif condition:
+					output
+				elif condition:
 					output
 				else:
 					output
-	3. Nested if:	
-		Syntax:		if condition:
-						output
-						if condition:
-							output
-						if condition:
-							output
-					else:
-						output
-	4. else if: 
-		Syntax:		if condition:
-						output
-					elif condition:
-						output
-					elif condition:
-						output
-					else:
-						output
 	5. Nested else if:
 		Syntax:		if condition:
-						output
+					output
+				elif condition:
+					output
 					elif condition:
 						output
-						elif condition:
-							output
-					else:
-						output
+				else:
+					output
 5. Indentation (space):
 	a. Space(s) in front of the conditional block is called indentation.
 	b. Indentation(spacing) is used to identify Conditional Block.
@@ -436,8 +436,8 @@ Difference b/w C, Java, Python:
 6. Loops (code21.py file): Loops allow us to execute a block of code several times.
 	1. while loop: Allows us to execute a block of code several times as long as the condition is True.
 		Syntax:		while condition:
-						output
-						Increment value
+					output
+					Increment value
 --------------------------------------------------------------------------------------------------------------------
 #Day9:
 
