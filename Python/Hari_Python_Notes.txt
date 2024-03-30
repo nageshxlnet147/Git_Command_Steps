@@ -377,7 +377,7 @@ Difference b/w C, Java, Python:
 	d. remove(): we can remove the values in the set.
 -----------------------------------------------------------------------------------------------------------------
 #Day8:
-	
+
 	e. set maths operations:
 		a. Difference(): we can find out the Difference values in sets. we use -ve symbol or difference() to perform the operations.
 		b. intersection(): we can find out the common values in sets without duplicates. we use & symbol or intersection() to perform the operations.
@@ -394,13 +394,16 @@ Difference b/w C, Java, Python:
 	g. clear(): we can clear the entire data in the dictionary.
 
 4. Conditional statements (code20.py file): Conditional Statement allows you to execute a block of code only when a specific condition is true.
-	1. if:	if condition: 
-				output
-	2. if else: if condition: 
+	1. if:	
+		Syntax:	if condition: 
+					output
+	2. if else: 
+		Syntax:	if condition: 
 					output
 				else:
 					output
-	3. Nested if:	if condition:
+	3. Nested if:	
+		Syntax:		if condition:
 						output
 						if condition:
 							output
@@ -409,7 +412,7 @@ Difference b/w C, Java, Python:
 					else:
 						output
 	4. else if: 
-					if condition:
+		Syntax:		if condition:
 						output
 					elif condition:
 						output
@@ -418,7 +421,7 @@ Difference b/w C, Java, Python:
 					else:
 						output
 	5. Nested else if:
-					if condition:
+		Syntax:		if condition:
 						output
 					elif condition:
 						output
@@ -430,12 +433,20 @@ Difference b/w C, Java, Python:
 	a. Space(s) in front of the conditional block is called indentation.
 	b. Indentation(spacing) is used to identify Conditional Block.
 	c. Standard practice is to use four spaces for indentation.
-6. Loops: Loops allow us to execute a block of code several times.
+6. Loops (code21.py file): Loops allow us to execute a block of code several times.
 	1. while loop: Allows us to execute a block of code several times as long as the condition is True.
-				while condition:
-					output
-					Increment value
+		Syntax:		while condition:
+						output
+						Increment value
 --------------------------------------------------------------------------------------------------------------------
+#Day9:
+
+	2. for loop: statement iterates over each item of a sequence.
+		Syntax:		for variable in range(start, end):	
+		a. range(start, end): Generates a sequence of integers starting from 0.	
+		b. n%10: it gives the last digit of the given number at every iteration
+    	c. n//10: # it remove the last digit of the given number at every iteration
+------------------------------------------------------------------------------------------------------------------
 
 				
 
