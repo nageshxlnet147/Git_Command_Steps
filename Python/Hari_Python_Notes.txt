@@ -445,7 +445,7 @@ Difference b/w C, Java, Python:
 		Syntax:		for variable in range(start, end):	
 		a. range(start, end): Generates a sequence of integers starting from 0.	
 		b. n%10: it gives the last digit of the given number at every iteration
-    	c. n//10: # it remove the last digit of the given number at every iteration
+    		c. n//10: # it remove the last digit of the given number at every iteration
 ------------------------------------------------------------------------------------------------------------------
 
 				
