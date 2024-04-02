@@ -28,3 +28,21 @@ while k!=0:
     b.append(r) 
 print(b[::-1])  # reverse the list
 
+# break statement
+h = 1
+while h<=5:
+    print(f"{h}")
+    if h == 3:
+        break
+    h += 1
+
+# continue statement
+f = 1
+while f<=5:
+    if f == 3:
+        f += 1
+        continue
+    print(f"{f}")
+    f += 1
+
+

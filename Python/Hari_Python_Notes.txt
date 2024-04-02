@@ -447,6 +447,23 @@ Difference b/w C, Java, Python:
 		b. n%10: it gives the last digit of the given number at every iteration
     		c. n//10: # it remove the last digit of the given number at every iteration
 ------------------------------------------------------------------------------------------------------------------
+#Day10:
+
+1. Multiple loops (code21.py file):
+	a. Multiple while loops: We can use multiple while loops in the single while loop.
+	b. Multiple for loops: We can use multiple for loops in the single for loop.
+2. Break statement: It works to break the given condition.
+3. Continue statement: It works to skip the given condition.
+
+4. functions() (code22.py file): A function can be defined as the organized block of reusable code, which can be called whenever required. 
+				Python allows us to divide a large program into the basic building blocks known as a function.
+				Syntax: def function_name()
+				There are 4 different types of function defined.
+	1. function  without arguments and without return
+	2. function  without arguments and with return
+	3. function  with arguments and without return
+	4. function  with arguments and with return
+--------------------------------------------------------------------------------------------------------------------------
 
 				
 
