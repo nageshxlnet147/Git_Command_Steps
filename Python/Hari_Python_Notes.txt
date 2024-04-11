@@ -464,6 +464,27 @@ Difference b/w C, Java, Python:
 	3. function  with arguments and without return
 	4. function  with arguments and with return
 --------------------------------------------------------------------------------------------------------------------------
+#Day11:
+
+	5. Default arguments: Standard arg to use in function.
+	6. Variable length arguments or Non-key Variable length arguments: We define the non-key by using * before the variable. So non-key can be used as a last aruguments of function. non-key can be converted into tuple data type.
+	7. Variable length arguments or key Variable length arguments: We define the key by using ** before the variable. So key can be used as a last aruguments of function. key can be converted into dictionary data type. we can Pass result by using any variable.
+	8. Packing: When we don't know how many arguments need to be passed to a Python function, we can use packing to bundle all the arguments into a tuple.
+	9. Unpacking: Unpacking allows us to distribute elements from a sequence (such as a list or tuple) into multiple variables or function parameters. We use the * operator for unpacking lists/tuples and the ** operator for dictionaries.
+	10. Recursion: It is a process in which a function calls itself directly or indirectly. 
+		a. Base case: we need to write the range of the executions.
+		b. Recursion case: The function calling itself without mentining of base case.
+		c. Advantages of using recursion
+				1. A complicated function can be split down into smaller sub-problems utilizing recursion.
+				2. Sequence creation is simpler through recursion than utilizing any nested iteration.
+				3. Recursive functions render the code look simple and effective.
+		d. Disadvantages of using recursion
+				1. A lot of memory and time is taken through recursive calls which makes it expensive for use.
+				2. Recursive functions are challenging to debug.
+				3. The reasoning behind recursion can sometimes be tough to think through.
+		e. Syntax: def fun():
+						fun()
+----------------------------------------------------------------------------------------------------------------------------
 
 				
 
