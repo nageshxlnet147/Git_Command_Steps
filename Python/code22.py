@@ -69,3 +69,11 @@ def fib(n):
     return n*fib(n-1)
 print(f"{fib(5)}")
 
+# Function recursion depth override
+import sys
+sys.setrecursionlimit(50)
+def fib(n):
+    if n == 0:
+        return 1
+    return n*fib(n-1)
+print(f"{fib(40)}")
