@@ -493,6 +493,14 @@ Difference b/w C, Java, Python:
 			Syntax (code22.py file): import sys
 									 sys.setrecursionlimit(value)
 ----------------------------------------------------------------------------------------------------------------------------
+#Day13
+
+1. OOPS (Object Oriented Programming): A style of designing a software.
+	1. Object: Its an entity or thing or noun in your program. It has some properties(data) and behaviours(Methods())
+	2. Class: Its used to create the group of objects.
+		a. self: Its an arugument to refere the data itself.
+		b. __init__(): To initialize the object data
+----------------------------------------------------------------------------------------------------------------------------
 
 
 
