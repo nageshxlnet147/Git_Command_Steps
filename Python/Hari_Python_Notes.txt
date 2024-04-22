@@ -455,10 +455,16 @@ Difference b/w C, Java, Python:
 2. Break statement: It works to break the given condition.
 3. Continue statement: It works to skip the given condition.
 
-4. functions() (code22.py file): A function can be defined as the organized block of reusable code, which can be called whenever required. 
-				Python allows us to divide a large program into the basic building blocks known as a function.
-				Syntax: def function_name()
-				There are 4 different types of function defined.
+4. functions() (code22.py file): 
+				a. A function can be defined as the organized block of reusable code, which can be called whenever required. 
+				b. Python allows us to divide a large program into the basic building blocks known as a function.
+				c. A function is a block of code that performs a specific task.
+				d. It runs only when called.
+				e. Functions allow you to create modular, reusable code.
+				f. Use the def keyword to define a function.
+				g. Syntax: def function_name()
+				f. To call a function, use its name followed by parentheses.
+	There are 4 different types of function defined.
 	1. function  without arguments and without return
 	2. function  without arguments and with return
 	3. function  with arguments and without return
@@ -473,7 +479,7 @@ Difference b/w C, Java, Python:
 	9. Unpacking: Unpacking allows us to distribute elements from a sequence (such as a list or tuple) into multiple variables or function parameters. We use the * operator for unpacking lists/tuples and the ** operator for dictionaries.
 	10. Recursion (code22.py file): It is a process in which a function calls itself directly or indirectly. 
 		a. Base case: we need to write the range of the executions.
-		b. Recursion case: The function calling itself without mentining of base case.
+		b. Recursion case: The function calling itself without mentioning of base case.
 		c. Advantages of using recursion
 				1. A complicated function can be split down into smaller sub-problems utilizing recursion.
 				2. Sequence creation is simpler through recursion than utilizing any nested iteration.
@@ -488,18 +494,28 @@ Difference b/w C, Java, Python:
 #Day12 
 
 		f. Recursion data is used to store the stack calling at every execution.
-		g. Recursion have a depth limitaion based on system or language.
-		h. There is a solution to overide the stack depth limitaion in control.
+		g. Recursion have a depth limitation based on system or language.
+		h. There is a solution to override the stack depth limitation in control.
 			Syntax (code22.py file): import sys
 									 sys.setrecursionlimit(value)
 ----------------------------------------------------------------------------------------------------------------------------
 #Day13
 
 1. OOPS (Object Oriented Programming): A style of designing a software.
-	1. Object: Its an entity or thing or noun in your program. It has some properties(data) and behaviours(Methods())
-	2. Class: Its used to create the group of objects.
-		a. self: Its an arugument to refere the data itself.
-		b. __init__(): To initialize the object data
+	1. Object: Its an entity or thing or noun in your program. It has some properties(data) and behaviors(Methods())
+	2. Class: Its used to create the group of objects. 
+		a. A class serves as a blueprint or template for creating objects. 
+		b. In Python, everything is an object, and to create anything, we need classes.
+		c. To define a class, use the class keyword.
+		d. self: The self parameter refers to the current instance of the class and its default argument. The self parameter allows access to class variables within methods.
+		e. __init__(): To initialize the object data
+		f. __str__(): The function controls the string representation of an object. If not set, the default representation is returned.
+	Step 1: To define a class name.
+	Step 2: To initialize the object data. The self parameter refers to the current instance of the class and its default argument.
+	Step 3: To create the methods like functions or behaviors.
+	Step 4: To create objects.
+	Step 5: To print the required data in the output console.
+
 ----------------------------------------------------------------------------------------------------------------------------
 
 
