@@ -39,3 +39,10 @@
 10. View the currect path:
     1. pwd - Print Working Directory (check the current location path/directory)
 -----------------------------------------------------------------------------
+11. Ubantu .deb applications run in ubantu terminal:
+    1. sudo dpkg -i application downolade file name
+-----------------------------------------------------------------------------
+12. Ubantu pakages updated and upgraded:
+    1. sudo apt-get update
+    2. sudo apt-get upgrade
+-----------------------------------------------------------------------------
