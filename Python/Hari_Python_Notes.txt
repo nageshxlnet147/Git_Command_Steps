@@ -515,7 +515,6 @@ Difference b/w C, Java, Python:
 	Step 3: To create the methods like functions or behaviors.
 	Step 4: To create objects.
 	Step 5: To print the required data in the output console.
-
 ----------------------------------------------------------------------------------------------------------------------------
 
 
